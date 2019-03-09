@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "sioExtended",
+  "version": "1.0",
+
+  "description": "Makes SIO2 usable.",
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "include_globs": ["*://sio2.*"],
+      "js": ["zadanie.js"]
+    },
+    {
+      "matches": ["*://*/*"],
+      "include_globs": ["*://sio2.*/p/", "*://sio2.*/p"],
+      "js": ["submit.js"]
+    },
+    {
+      "matches": ["*://*/*"],
+      "include_globs": ["*://sio2.*/submit/*"],
+      "js": ["select.js"]
+    }
+  ]
+}
+
