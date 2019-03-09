@@ -7,7 +7,7 @@
     }
     for (let element of document.querySelectorAll('table tbody tr:not(.problemlist-subheader)')){
         let n = element.children[2].children[0].id.replace("limits_", "");
-        element.innerHTML += '<td style="text-align: right;"><a href="' + url + '../submit/?select=' + n + '">⇪</a></td>';
+        element.innerHTML += '<td><a role="button" class="sioextended-button btn btn-sm btn-default" href="' + url + '../submit/?select=' + n + '"><span class="glyphicon glyphicon-upload"></span></a></td>';
     }
     for (let element of document.querySelectorAll('table thead tr')){
         element.innerHTML += '<th></th>';
