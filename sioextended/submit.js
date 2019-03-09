@@ -1,8 +1,6 @@
 (function(){
     'use strict';
     
-    
-    
     let url = document.location.href;
     if (url[url.length - 1] != "/"){
         url += "/";
