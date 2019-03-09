@@ -13,5 +13,9 @@ Makes SIO2 usable.
 4. Click the settings wheel ⚙ and select *Install Add-on from file*.
 
 ### Chrome:
-Sadly, Chrome allows to install extensions only from the official store, which costs a developer license.
+Sadly, Chrome by default allows to install extensions only from the official store, which costs a developer license.
 If you are an advanced user, go on and install the [CRX package](../../raw/master/sioextended.crx) through the developer settings.
+1. Go to *Extensions* menu (<chrome://extensions/>).
+2. Turn on developer mode.
+3. Unpack the CRX package as .zip to a folder or just download the source.
+4. Click *load unpacked* and select the folder form step 3.
