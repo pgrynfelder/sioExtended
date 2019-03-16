@@ -1,8 +1,12 @@
 .sioextended-button {
     display: inline !important;
-    padding: 1px 8px !important;
-    line-height: 100% !important;
-    font-size: 12px !important;
-    margin-left: 20px !important;
-    margin-right: -20px !important;
+    padding: .1em .5em .1em !important;
+    font-size: 90% !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: baseline !important;
+}
+.sioextended-button .glyphicon {
+    top: 2px !important;
 }

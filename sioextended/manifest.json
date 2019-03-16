@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "sioExtended",
-  "version": "1.1.1",
+  "version": "1.1.2",
 
   "description": "Makes SIO2 usable.",
   
@@ -23,6 +23,11 @@
       "include_globs": ["*://sio2.*/submit/*"],
       "js": ["select.js"]
     }
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "update_url": "https://github.com/pitek1/sioExtended/raw/master/updates.json"
+    }
+  }
 }
 
