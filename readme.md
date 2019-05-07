@@ -20,4 +20,4 @@ If you are an advanced user, go on and install the [CRX package](../../raw/maste
 3. Unpack the CRX package as .zip to a folder or just download the source.
 4. Click *load unpacked* and select the folder from step 3.
 
-testing mirror still :(:
+test v2
