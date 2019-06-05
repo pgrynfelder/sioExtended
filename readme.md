@@ -12,6 +12,11 @@ Makes SIO2 usable.
 3. Navigate to *Extensions* tab.
 4. Click the settings wheel ⚙ and select *Install Add-on from file*.
 
+### Opera
+1. Download the [CRX package](https://github.com/pitek1/sioExtended/raw/master/sioextended.crx).
+2. Go to *Extensions* menu (<opera://extensions/>).
+3. Drag and drop the downloaded CRX package onto the site.
+
 ### Chrome:
 Sadly, Chrome by default allows to install extensions only from the official store, which costs a developer license.
 If you are an advanced user, go on and install the [CRX package](https://github.com/pitek1/sioExtended/raw/master/sioextended.crx) through the developer settings.
