@@ -1,12 +1,12 @@
 # sioExtended
 Makes SIO2 usable.
 
-## Features:
+## Features
 * Adds `submit` buttons to **Problems** view.
 * Removes `zadanie` prefix which hindered searching through the problems (commonly existent in Polish SIO language verison)
 
 ## Installation guide
-### Firefox:
+### Firefox
 1. Download the [XPI package](https://github.com/pitek1/sioExtended/raw/master/sioextended.xpi).
 2. Go to *Add-ons* menu (`Ctrl+Shift+A`).
 3. Navigate to *Extensions* tab.
@@ -17,10 +17,11 @@ Makes SIO2 usable.
 2. Go to *Extensions* menu (<opera://extensions/>).
 3. Drag and drop the downloaded CRX package onto the site.
 
-### Chrome:
+### Chrome
 Sadly, Chrome by default allows to install extensions only from the official store, which costs a developer license.
 If you are an advanced user, go on and install the [CRX package](https://github.com/pitek1/sioExtended/raw/master/sioextended.crx) through the developer settings.
-1. Go to *Extensions* menu (<chrome://extensions/>).
-2. Turn on developer mode.
-3. Unpack the CRX package as .zip to a folder or just download the source.
-4. Click *load unpacked* and select the folder from step 3.
+1. Download the [CRX package](https://github.com/pitek1/sioExtended/raw/master/sioextended.crx).
+2. Go to *Extensions* menu (<chrome://extensions/>).
+3. Turn on developer mode.
+4. Unpack the CRX package as .zip to a folder or just download the source.
+5. Click *load unpacked* and select the folder from step 3.
