@@ -7,21 +7,21 @@ Makes SIO2 usable.
 
 ## Installation guide
 ### Firefox
-1. Download the [XPI package](https://github.com/pitek1/sioExtended/raw/master/sioextended.xpi).
+1. Download the [latest XPI package](https://github.com/pitek1/sioExtended/releases).
 2. Go to *Add-ons* menu (`Ctrl+Shift+A`).
 3. Navigate to *Extensions* tab.
 4. Click the settings wheel ⚙ and select *Install Add-on from file*.
 
 ### Opera
-1. Download the [CRX package](https://github.com/pitek1/sioExtended/raw/master/sioextended.crx).
-2. Go to *Extensions* menu (<opera://extensions/>).
+1. Download the [CRX package](https://github.com/pitek1/sioExtended/releases).
+2. Go to [*Extensions* menu](opera://extensions/).
 3. Drag and drop the downloaded CRX package onto the site.
 
 ### Chrome
 Sadly, Chrome by default allows to install extensions only from the official store, which costs a developer license.
-If you are an advanced user, go on and install the [CRX package](https://github.com/pitek1/sioExtended/raw/master/sioextended.crx) through the developer settings.
-1. Download the [CRX package](https://github.com/pitek1/sioExtended/raw/master/sioextended.crx).
-2. Go to *Extensions* menu (<chrome://extensions/>).
+If you are an advanced user, go on and install the [CRX package](https://github.com/pitek1/sioExtended/releases) through the developer settings.
+1. Download the [CRX package](https://github.com/pitek1/sioExtended/releases).
+2. Go to [*Extensions* menu](chrome://extensions/).
 3. Turn on developer mode.
 4. Unpack the CRX package as .zip to a folder or just download the source.
 5. Click *load unpacked* and select the folder from step 3.
