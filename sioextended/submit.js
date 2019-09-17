@@ -14,4 +14,7 @@
         + n 
         + '"><span class="glyphicon glyphicon-upload"></span></a>';
     }
+    for (let element of document.querySelectorAll('table tbody tr:not(.problemlist-subheader) a')){
+        element.setAttribute("target", "_blank");
+    }
 }());
